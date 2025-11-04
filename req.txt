@@ -1,0 +1,6 @@
+langchain
+langgraph
+langchain-groq
+groq
+pydantic
+ipython
