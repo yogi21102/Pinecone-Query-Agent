@@ -63,10 +63,3 @@ Notes & Troubleshooting
 - The script depends on `langchain_groq`, `langgraph`, and `langchain` packages. Versions may matter; if you run into compatibility issues, try using the same Python version referenced in the venv layout (Python 3.12) or pin package versions.
 - Rendering `agent_graph.png` requires langgraph's graph rendering helpers and a working image backend; the script catches failures when saving the graph and will continue to run the sample queries.
 
-Extending this project
-- Integrate with a real vector database (e.g., Pinecone) to actually run the generated queries.
-- Add more robust date parsing and normalization for relative date terms ("last month", "yesterday").
-- Add unit tests for the formatter node (`format_pinecone_filter_node`) to ensure correct filter generation.
-
-License
-- No license specified. Add a LICENSE file if you intend to open-source this project.
